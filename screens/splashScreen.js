@@ -254,8 +254,8 @@ const SplashScreen = ({navigation, dispatch}) => {
     return (
       <TouchableOpacity
         activeOpacity={0.9}
-        // onPress={() => navigation.push('Signin')}
-        onPress={() => navigation.push('applyPromocode')}
+        onPress={() => navigation.push('Signin')}
+        // onPress={() => navigation.push('applyPromocode')}
         style={styles.signupButtonStyle}>
         <Text style={{...Fonts.whiteColor18Bold}}>Get Started</Text>
       </TouchableOpacity>
